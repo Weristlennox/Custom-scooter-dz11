@@ -59,10 +59,10 @@ select{width:100%;background:var(--card);border:1px solid var(--line);color:var(
 #payinfo{font-size:13px;color:var(--mut);margin:4px 0 8px}
 #bp{display:none;background:#0070ba;margin:4px 0 10px}
 </style></head><body>
-<div class="bar" id="bar">📍 Nur Abholung – kein Versand möglich</div>
+<div class="bar" id="bar">📍 Abholung nur in Dortmund – kein Versand möglich</div>
 <header><b id="logo" style="user-select:none;-webkit-user-select:none">CUSTOM SCOOTER <span>DZ11</span></b>
 <nav><a href="#produkte">Produkte</a><a href="#ablauf">Abholung</a></nav>
-<div><button class="cartbtn" onclick="tog(true)">Bestellung (<span id="cnt">1</span>)</button></div></header>
+<div><button class="cartbtn" onclick="tog(true)">Bestellung (<span id="cnt">0</span>)</button></div></header>
 
 <div class="hero"><div><h1>High-End Zubehör für <em>deinen E-Scooter</em></h1>
 <p>3D-gedruckte Teile für Ninebot Max G3, F3 / F3 Pro und mehr – Handarbeit, passgenau, robust.</p>
@@ -97,12 +97,12 @@ select{width:100%;background:var(--card);border:1px solid var(--line);color:var(
 <div><b>4</b><br><strong>Abholen</strong><br><span style="color:var(--mut)">Den Abholort vereinbaren wir per WhatsApp oder E-Mail.</span></div></div>
 <p style="color:var(--mut);margin-top:18px">📍 Abholort: <strong id="addrt" style="color:var(--tx)">wird nach der Bestellung per WhatsApp oder E-Mail vereinbart.</strong></p></section>
 
-<footer id="ft">© 2026 Custom Scooter DZ11 · Nur Abholung, kein Versand · WhatsApp: +491632366719 · E-Mail: noah1708@gmx.de</footer>
+<footer id="ft">© 2026 Custom Scooter DZ11 · Nur Abholung, kein Versand · WhatsApp: <a href="tel:+491632366719" dir="ltr" x-apple-data-detectors="true" x-apple-data-detectors-type="telephone" x-apple-data-detectors-result="1">+491632366719</a> · E-Mail: noah1708@gmx.de</footer>
 
 <aside id="drawer" class=""><button class="x" onclick="tog(false)">×</button><h2 style="font-size:22px">Deine Bestellung</h2>
-<div id="items"></div><p id="tot" style="font-weight:700">Summe: 14,95 €</p>
+<div id="items"></div><p id="tot" style="font-weight:700">Summe: 0,00 €</p>
 <input id="nm" placeholder="Dein Name"><input id="ct" placeholder="Telefon oder E-Mail">
-<h3 style="font-size:15px;margin:12px 0 0">Bezahlung</h3><div class="pay" id="pay"><button type="button" class="on" onclick="sp('Bar')">💶 Bar (Treffen)</button></div><p id="payinfo">Barzahlung: Wir treffen uns vorher einmal, du gibst das Geld, danach wird gedruckt. Ort und Zeit besprechen wir per WhatsApp oder E-Mail.</p><a class="btn" id="bp" target="_blank" rel="noopener" href="#" style="display: none;">Jetzt mit PayPal bezahlen</a>
+<h3 style="font-size:15px;margin:12px 0 0">Bezahlung</h3><div class="pay" id="pay"><button type="button" class="" onclick="sp('PayPal')">💳 PayPal</button><button type="button" class="" onclick="sp('Bar')">💶 Bar (Treffen)</button></div><p id="payinfo">Bitte Zahlungsart wählen.</p><a class="btn" id="bp" target="_blank" rel="noopener" href="#" style="display: none;">Jetzt mit PayPal bezahlen</a>
 <a class="btn" id="bm" target="_blank" rel="noopener" href="#">Per E-Mail bestellen</a> <a class="btn" id="bw" style="background:#25a244" target="_blank" rel="noopener" href="#">Per WhatsApp bestellen</a><p id="om" style="color:#ff7b7b;font-size:13px;margin:6px 0"></p><details style="font-size:13px"><summary style="cursor:pointer;color:var(--ac2)">Klappt nicht? Bestellung manuell senden</summary><p id="mc" style="color:var(--mut)">WhatsApp: +491632366719 · E-Mail: noah1708@gmx.de – Text unten kopieren und selbst senden.</p><textarea id="ot" rows="6" readonly="" onclick="this.select()"></textarea></details>
 <p style="font-size:12px;color:var(--mut)">Erst Zahlung, dann wird gedruckt. Abholort per WhatsApp/E-Mail. Kein Versand.</p></aside>
 <div id="adm" class=""><div style="max-width:760px;margin:0 auto;padding:18px"><button class="x" style="float:right" onclick="adm(0)">×</button><h2>⚙ Admin</h2><div id="admc"></div></div></div>
@@ -198,5 +198,5 @@ $('msg').textContent='Speichere …';await a.publish('<!DOCTYPE html>'+c.outerHT
 function route(){const h=location.hash,m=/^#model-(\d+)$/.exec(h);if(m||h===''||h==='#produkte'||!window.__r){V=m?+m[1]:-1;render();window.__r=1}if(h==='#admin')gate()}
 addEventListener('hashchange',()=>{route();if(V>=0)$('produkte').scrollIntoView()});
 route();
-</script>
-</body></html>
+</script><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciLz4=" width="20" height="20" alt="Google Translate"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Original text</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Contribute a better translation</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
+<div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
